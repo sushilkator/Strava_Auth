@@ -15,33 +15,3 @@ let getAtheletData = async()=>{
 getAtheletData().catch((err)=>{
     console.log(err);
 })
-
-
-
-
-
-// const id = 29846750;
-// let url = `https://www.strava.com/api/v3/athletes/${id}/stats?page=&per_page="`
-// let options ={ 
-//   headers:
-//    { 'User-Agent': 'node-strava-v3 v2.0.2',
-//      Authorization: 'Bearer 89509df2097166fab13afd97d861c7b798824797'},
-//   url: url,
-//   resolveWithFullResponse: true,
-//   simple: true,
-// };
-
-//  //console.log(options);  
-// request.get(options, (error, response, body)=> {
-//     console.log(response)
-//     console.log(response);
-//     if (!error && response.statusCode == 200) {
-//         console.log('-----------------body -----------');
-//         console.log(body);
-//       var info = JSON.parse(body);
-//       console.log(info);
-//     }else{
-//         console.log('Error is here ---');
-//         console.log(error);
-//     }
-//   });
